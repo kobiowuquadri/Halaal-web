@@ -1,0 +1,61 @@
+@import '../../_variables';
+
+.traders_section {
+    padding: 50px;
+}
+
+#tarders_list {
+    padding: 30px 10px;
+
+    li {
+        font-size: 1.2rem;
+        color: $deepblue;
+    }
+}
+
+.main_content {
+    align-items: center;
+    width: 100%;
+}
+
+.market_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 50%;
+
+    h1 {
+        color: $deepblue;
+        font-weight: bold;
+    }
+
+    p {
+        color: $lightblue;
+        font-size: 1.2rem;
+    }
+}
+.market_image {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    #tarders_list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .main_content {
+        flex-direction: column-reverse;
+        gap: 20px;
+
+        .market_content {
+            width: 100%;
+        }
+
+        .market_image {
+            width: 100%;
+        }
+    }
+}
