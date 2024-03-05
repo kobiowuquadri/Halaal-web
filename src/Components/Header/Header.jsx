@@ -41,7 +41,7 @@ function Header () {
 
       <header
         id='header'
-        className='d-flex justify-content-between align-items-center'
+        className='d-flex justify-content-between align-items-center fixed-top shadow'
       >
         <Link to='/'>
           <img src={logo} alt='' />

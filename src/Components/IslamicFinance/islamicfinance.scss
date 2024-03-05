@@ -1,0 +1,23 @@
+@import '../../_variables';
+
+.finance_section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 50px 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: url('../../assets/upper_shape.png') center no-repeat $deepblue;
+    background-size: cover;
+
+    :nth-child(2){
+        width: 50%;
+        text-align: center;
+    }
+
+    #p_img {
+        margin-bottom: -4%;
+    }
+}
+
