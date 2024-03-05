@@ -42,6 +42,9 @@
 }
 
 @media (max-width: 768px) {
+    .traders_section {
+        padding: 15px;
+    }
     #tarders_list{
         flex-direction: column;
         justify-content: center;

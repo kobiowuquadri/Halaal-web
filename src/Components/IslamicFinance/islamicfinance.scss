@@ -21,3 +21,16 @@
     }
 }
 
+
+@media (max-width: 768px) {
+    .finance_section{
+        padding: 15px;
+        text-align: center;
+
+        :nth-child(2) {
+            width: 100%;
+        }
+    }
+
+
+}
