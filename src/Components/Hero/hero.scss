@@ -28,6 +28,10 @@
 
 }
 
+#license {
+ gap: 40px;
+}
+
 
 
 @media (max-width: 768px) {
@@ -61,6 +65,12 @@
       flex-direction: column;
     }
    
+    #license {
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
 

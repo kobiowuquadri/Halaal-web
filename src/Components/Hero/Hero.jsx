@@ -41,7 +41,7 @@ function Hero () {
             <img src={googleImage} alt='' />
           </p>
         </div>
-        <div className='d-flex gap-4'>
+        <div id='license' className='d-flex'>
           <p className='d-flex gap-2 align-items-center'>
             Licensed by the CBN
             <img src={cbnImage} alt='' />

@@ -19,6 +19,10 @@
   width: 50%;
 }
 
+#license {
+  gap: 40px;
+}
+
 @media (max-width: 768px) {
   #hero {
     flex-direction: column;
@@ -41,5 +45,11 @@
   }
   #partners {
     flex-direction: column;
+  }
+  #license {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=hero.css.map */
