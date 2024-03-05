@@ -1,16 +1,45 @@
-.hero_content h1 {
+#hero {
+  display: flex;
+  padding: 50px;
+  width: 100%;
+}
+#hero .hero_content {
+  width: 50%;
+}
+#hero .hero_content h1 {
   color: #003780;
   font-weight: bold;
   font-size: 4rem;
+}
+#hero .hero_content .btns {
+  padding-top: 50px;
+  gap: 40px;
+}
+#hero .hero_image {
+  width: 50%;
 }
 
 @media (max-width: 768px) {
   #hero {
     flex-direction: column;
+    padding: 20px;
   }
-  .hero_content h1 {
+  #hero .hero_image {
+    width: 100%;
+    padding: 15px;
+  }
+  #hero .hero_content {
+    width: 100%;
+  }
+  #hero .hero_content h1 {
     color: #003780;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
+  }
+  #hero .hero_content .btns {
+    gap: 20px;
+  }
+  #partners {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=hero.css.map */

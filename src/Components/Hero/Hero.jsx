@@ -11,9 +11,8 @@ function Hero () {
   return (
     <div
       id='hero'
-      className='d-flex w-100 align-items-center'
     >
-      <div className='hero_content d-flex flex-column w-md-50 w-lg-100 gap-md-3'>
+      <div className='hero_content d-flex flex-column'>
         <h1>
           The <span style={{ color: '#0066F4' }}>Interest-free</span> <br />{' '}
           Bank
@@ -34,7 +33,7 @@ function Hero () {
           />
           <em></em>
         </p>
-        <div className='d-flex gap-4'>
+        <div className='btns d-flex'>
           <p>
             <img src={appleImage} alt='' />
           </p>

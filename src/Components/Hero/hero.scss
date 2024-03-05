@@ -1,23 +1,66 @@
 @import '../../_variables';
 
-.hero_content {
-  h1 {
-    color: $deepblue;
-    font-weight: bold;
-    font-size: 4rem;
-  }
+#hero {
+ display: flex;
+ padding: 50px;
+ width: 100%;
+
+
+
+    .hero_content {
+        width: 50%;
+
+        h1 {
+          color: $deepblue;
+          font-weight: bold;
+          font-size: 4rem;
+        }
+
+        .btns {
+            padding-top: 50px;
+            gap: 40px;
+        }
+      }
+
+      .hero_image{
+        width: 50%;
+      }
+
 }
+
+
 
 @media (max-width: 768px) {
     #hero {
         flex-direction: column;
-    }
-    .hero_content {
-        h1 {
-          color: $deepblue;
-          font-weight: bold;
-          font-size: 1.5rem;
+        padding: 20px;
+
+        .hero_image {
+            width: 100%;
+            padding: 15px;
         }
-      }
+
+        .hero_content {
+            width: 100%;
+            h1 {
+              color: $deepblue;
+              font-weight: bold;
+              font-size: 2.2rem;
+            }
+
+            .btns {
+                gap: 20px;
+            }
+
+    
+          }
+    }
+
+
+    #partners {
+      flex-direction: column;
+    }
+   
 
 }
+
