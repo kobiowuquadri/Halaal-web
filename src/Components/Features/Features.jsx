@@ -31,7 +31,7 @@ function Features() {
 
     return (
         <div className="container features_sec">
-            <h1 className="text-center my-4">We have added functions that would make banking easier for you.</h1>
+            <h2 className="text-center my-5">We have added functions that would make banking easier for you.</h2>
             <div className="row justify-content-around">
                 {cardData.map((card, index) => (
                     <div key={index} className="col-lg-3 col-md-6 mb-4">
