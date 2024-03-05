@@ -1,0 +1,69 @@
+@import '../../_variables';
+
+
+.earn_sec {
+  
+    h2 {
+      color: $deepblue;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    p {
+      color: $deepblue;
+      width: 70%;
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    #earn {
+      width: 100%;
+      padding: 50px;
+      gap: 10px;
+  
+      .earn_content {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: last baseline;
+        background-color: $thriftsBg;
+   
+
+        h4 {
+            font-weight: bold;
+            width: 50%;
+        }
+      }
+  
+      .earn_image {
+        width: 50%;
+        background-color: $thriftsBg;
+        // padding: 10px;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .earn_sec {
+
+
+      p {
+        width: 100%;
+      }
+
+      #earn {
+        flex-direction: column;
+
+        .earn_content{
+            width: 100%;
+        }
+
+        .earn_image {
+            width: 100%;
+        }
+      }
+    }
+  }
+  

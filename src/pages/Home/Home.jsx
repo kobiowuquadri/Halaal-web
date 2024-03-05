@@ -6,6 +6,8 @@ import MarketTraders from '../../Components/MarketTraders/MarketTraders'
 import IslamicFinance from '../../Components/IslamicFinance/IslamicFinance'
 import Features from '../../Components/Features/Features'
 import Thrifts from '../../Components/Thrifts/Thrifts'
+import Earn from '../../Components/Earn/Earn'
+import Faq from '../../Components/FAQ/FAQ'
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
       <IslamicFinance/>
       <Features/>
       <Thrifts/>
+      <Earn/>
+      <Faq/>
     </>
   )
 }
