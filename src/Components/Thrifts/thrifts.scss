@@ -1,5 +1,44 @@
 @import '../../_variables';
 
 .thrifts_sec {
-    background-color: $thriftsBg;
+  background-color: $thriftsBg;
+
+  ul {
+    color: $lightblue;
+  }
+
+  h2 {
+    color: $deepblue;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #thrifts {
+    width: 100%;
+    padding: 50px;
+
+    .thrifts_content {
+      width: 50%;
+
+      p {
+        color: $lightblue;
+      }
+    }
+
+    .thrifts_image {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #thrifts {
+      flex-direction: column;
+      padding: 15px;
+
+      .thrifts_content,
+      .thrifts_image {
+        width: 100%;
+      }
+    }
+  }
 }
