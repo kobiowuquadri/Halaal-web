@@ -33,7 +33,7 @@ function Header () {
           </nav>
           <div id='buttons' className='d-flex gap-5'>
             <button className='btn btn-primary'>Sign Up For Free</button>
-            <button className='btn btn-outline-secondary'>Download App</button>
+            <button className='btn btn-outline-secondary border-primary text-primary'>Download App</button>
           </div>
         </div>
         <img
