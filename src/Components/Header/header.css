@@ -28,7 +28,7 @@ header {
   padding-top: 30px;
   top: 0;
   left: 0;
-  background-color: blue;
+  background-color: #003780;
   display: flex;
   flex-direction: column;
   gap: 70px;
@@ -64,5 +64,8 @@ header {
   }
   #buttons button {
     display: none;
+  }
+  #header {
+    padding: 15px;
   }
 }/*# sourceMappingURL=header.css.map */

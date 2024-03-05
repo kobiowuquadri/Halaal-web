@@ -13,14 +13,36 @@ function Header () {
       <div id='navcard' className={toggle ? 'show' : ''}>
         <img id='close' src={closeIcon} onClick={() => setToggle(false)}></img>
         <ul>
-            <li><a href='#'>Why Halal?</a></li>
-            <li><a href='#'>Our Culture</a></li>
-            <li><a href='#'>FAQ</a></li>
-            <li><a href='#'>Join As Cooperative</a></li>
+          <li>
+            <a href='#'>Why Halal?</a>
+          </li>
+          <li>
+            <a href='#'>Our Culture</a>
+          </li>
+          <li>
+            <a href='#'>FAQ</a>
+          </li>
+          <li>
+            <a href='#'>Join As Cooperative</a>
+          </li>
+
+          <li>
+            <button className='btn btn-primary'>Sign Up For Free</button>
+          </li>
+
+          <li>
+            {' '}
+            <button className='btn btn-outline-secondary border-primary text-primary'>
+              Download App
+            </button>
+          </li>
         </ul>
       </div>
 
-      <header id='header' className='d-flex justify-content-between align-items-center'>
+      <header
+        id='header'
+        className='d-flex justify-content-between align-items-center'
+      >
         <Link to='/'>
           <img src={logo} alt='' />
         </Link>
@@ -33,7 +55,9 @@ function Header () {
           </nav>
           <div id='buttons' className='d-flex gap-5'>
             <button className='btn btn-primary'>Sign Up For Free</button>
-            <button className='btn btn-outline-secondary border-primary text-primary'>Download App</button>
+            <button className='btn btn-outline-secondary border-primary text-primary'>
+              Download App
+            </button>
           </div>
         </div>
         <img

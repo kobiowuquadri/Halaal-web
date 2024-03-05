@@ -9,9 +9,12 @@ import './hero.scss'
 
 function Hero () {
   return (
-    <div className='d-flex p-lg-5 pt-lg-5 w-100 align-items-center'>
-      <div className='hero_content d-flex flex-lg-column w-50 gap-md-3'>
-        <h1 className='' style={{fontSize:'4rem'}}>
+    <div
+      id='hero'
+      className='d-flex w-100 align-items-center'
+    >
+      <div className='hero_content d-flex flex-column w-md-50 w-lg-100 gap-md-3'>
+        <h1>
           The <span style={{ color: '#0066F4' }}>Interest-free</span> <br />{' '}
           Bank
         </h1>
@@ -50,8 +53,8 @@ function Hero () {
           </p>
         </div>
       </div>
-      <div className='hero_image w-50'>
-        <img src={heroImage} alt='' />
+      <div className='hero_image w-lg-50 w-md-100'>
+        <img src={heroImage} className='img-fluid' alt='' />
       </div>
     </div>
   )
