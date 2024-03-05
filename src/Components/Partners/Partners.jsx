@@ -10,10 +10,10 @@ function Partners() {
     <div className='p-lg-5 text-center'>
         <h2 className='p-4 text-secondary'>Official Partners</h2>
         <div id='partners' className='d-flex justify-content-between'>
-            <p><img src={flutterwaveImage} alt="" /></p>
-            <p><img src={paystackImage} alt="" /></p>
-            <p><img src={remitaImg} alt="" /></p>
-            <p><img src={interswitchImg} alt="" /></p>
+            <p data-aos="flip-left"><img src={flutterwaveImage} alt="" /></p>
+            <p data-aos="flip-left"><img src={paystackImage} alt="" /></p>
+            <p data-aos="flip-left"><img src={remitaImg} alt="" /></p>
+            <p data-aos="flip-left"><img src={interswitchImg} alt="" /></p>
         </div>
     </div>
   )

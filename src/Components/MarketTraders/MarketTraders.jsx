@@ -63,7 +63,7 @@ function MarketTraders () {
           </li>
         ))}
       </ul>
-      <div className='d-flex main_content'>
+      <div className='d-flex main_content' data-aos="fade-right">
         <div className='market_content'>
           <h1>{itemsData[selectedItem].title}</h1>
           <p>{itemsData[selectedItem].description}</p>
@@ -71,7 +71,7 @@ function MarketTraders () {
             Learn More
           </button>
         </div>
-        <div className='market_image'>
+        <div className='market_image' data-aos="fade-left">
           <img
             src={itemsData[selectedItem].image}
             className='img-fluid'

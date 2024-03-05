@@ -9,35 +9,37 @@ import './hero.scss'
 
 function Hero () {
   return (
-    <div
-      id='hero'
-    >
+    <div id='hero'>
       <div className='hero_content d-flex flex-column'>
-        <h1>
+        <h1 data-aos="fade-right">
           The <span style={{ color: '#0066F4' }}>Interest-free</span> <br />{' '}
           Bank
         </h1>
         <p className='fw-bold'>
-          <TypeAnimation
-            sequence={[
-              'banking the ethical way...',
-              1000,
-              () => {
-                console.log('Sequence completed')
-              }
-            ]}
-            wrapper='span'
-            cursor={true}
-            repeat={Infinity}
-            style={{ textAlign: 'center' }}
-          />
-          <em></em>
-        </p>
+      <TypeAnimation
+        sequence={[
+          'banking the ethical way...',
+          1000,
+          '😎😎😎...', // Clear the content
+          500, // Delay before re-showing the content
+          'banking the ethical way...', // Re-show the content
+          1000, // Duration to keep the content shown
+          () => {
+            console.log('Sequence completed');
+          }
+        ]}
+        wrapper='span'
+        cursor={true}
+        repeat={Infinity}
+        style={{ textAlign: 'center' }}
+      />
+      <em></em>
+    </p>
         <div className='btns d-flex'>
-          <p>
+          <p className='animate__animated animate__heartBeat-slow animate__delay-2s animate__infinite'>
             <img src={appleImage} alt='' />
           </p>
-          <p>
+          <p className='animate__animated animate__heartBeat-slow animate__delay-2s animate__infinite'>
             <img src={googleImage} alt='' />
           </p>
         </div>
@@ -52,7 +54,7 @@ function Hero () {
           </p>
         </div>
       </div>
-      <div className='hero_image w-lg-50 w-md-100'>
+      <div className='hero_image w-lg-50 w-md-100 animate__animated animate__heartBeat-slow animate__delay-2s animate__infinite'>
         <img src={heroImage} className='img-fluid' alt='' />
       </div>
     </div>
