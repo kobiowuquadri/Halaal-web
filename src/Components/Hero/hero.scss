@@ -2,7 +2,7 @@
 
 #hero {
  display: flex;
- padding: 50px;
+ padding: 100px 50px 50px 50px;
  width: 100%;
  margin-top: 70px;
  max-width: 100%;
@@ -98,3 +98,16 @@
   animation: heartbeat-slow 2s infinite;
 }
 
+@media ((min-width:768px) and (max-width: 1078px)){
+ #hero {
+
+  .hero_content {
+
+    
+    h1 {
+      font-size: 3rem;
+      // color: red;
+    }
+  }
+ }
+}
