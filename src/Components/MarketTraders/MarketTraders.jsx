@@ -4,6 +4,7 @@ import smallBusinessImg from '../../assets/small_business.png'
 import comperativesImg from '../../assets/comperatives.png'
 import privateOfficersImg from '../../assets/private_officers.png'
 import publicOfficesImg from '../../assets/public_offices.png'
+import arrowRight from '../../assets/arrow-right.png'
 import './markettraders.scss'
 
 function MarketTraders () {
@@ -55,7 +56,8 @@ function MarketTraders () {
     <div className='traders_section'>
       <ul
         id='tarders_list'
-        className='d-flex justify-content-between list-unstyled' style={{cursor:'pointer'}}
+        className='d-flex justify-content-between list-unstyled'
+        style={{ cursor: 'pointer' }}
       >
         {itemsData.map((item, index) => (
           <li key={index} onClick={() => handleItemClick(index)}>
@@ -63,15 +65,16 @@ function MarketTraders () {
           </li>
         ))}
       </ul>
-      <div className='d-flex main_content' data-aos="fade-right">
+      <div className='d-flex main_content' data-aos='fade-right'>
         <div className='market_content'>
           <h1>{itemsData[selectedItem].title}</h1>
           <p>{itemsData[selectedItem].description}</p>
-          <button className='btn btn-outline-secondary text-primary'>
+          <button className='d-flex gap-2 align-items-center btn border-3 text-primary' style={{ borderBottom: '3px solid #0066F4' }}>
             Learn More
+            <img src={arrowRight} alt='' />
           </button>
         </div>
-        <div className='market_image' data-aos="fade-left">
+        <div className='market_image' data-aos='fade-left'>
           <img
             src={itemsData[selectedItem].image}
             className='img-fluid'

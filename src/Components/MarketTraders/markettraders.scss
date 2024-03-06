@@ -10,8 +10,8 @@
     grid-template-columns: repeat(2, 1fr 1fr);
 
     li {
-        font-size: 1.2rem;
-        color: $deepblue;
+        font-size: 1.1rem;
+        color: $blendColor;
     }
 }
 
@@ -26,6 +26,7 @@
     gap: 20px;
     align-items: flex-start;
     width: 50%;
+    padding-right: 50px;
 
     h1 {
         color: $deepblue;
@@ -43,7 +44,7 @@
 
 @media (max-width: 768px) {
     .traders_section {
-        padding: 15px;
+        padding: 0px;
     }
     #tarders_list{
         flex-direction: column;
@@ -53,10 +54,26 @@
     }
     .main_content {
         flex-direction: column-reverse;
-        gap: 20px;
+
 
         .market_content {
             width: 100%;
+            text-align: center;
+            justify-content: center;
+            padding:30px 15px;
+
+            h1 {
+                font-size: 1.3rem;
+                margin: auto;
+            }
+
+            p{
+                font-size: 1.1rem;
+            }
+
+            button {
+              margin: auto;
+            }
         }
 
         .market_image {
