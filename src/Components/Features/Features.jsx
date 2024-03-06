@@ -35,7 +35,7 @@ function Features() {
             <div className="row justify-content-around">
                 {cardData.map((card, index) => (
                     <div key={index} className="col-lg-3 col-md-6 mb-4">
-                        <div className="card h-100 d-flex flex-column justify-content-between p-2 shadow" data-aos="zoom-in">
+                        <div className="card h-100 d-flex flex-column justify-content-between p-2 shadow-lg border-0" data-aos="zoom-in">
                             <img src={card.image} alt={card.title} width={'50px'} />
                             <div className="card-body">
                                 <h5 className="card-title">{card.title}</h5>
