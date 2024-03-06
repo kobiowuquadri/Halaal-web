@@ -8,7 +8,7 @@ import '../Hero/hero.scss'
 function Partners() {
   return (
     <div className='p-lg-5 text-center'>
-        <h2 className='p-4 text-secondary'>Official Partners</h2>
+        <h3 className='p-4 text-secondary'>Official partners of halal</h3>
         <div id='partners' className='d-flex justify-content-between'>
             <p data-aos="flip-left"><img src={flutterwaveImage} alt="" /></p>
             <p data-aos="flip-left"><img src={paystackImage} alt="" /></p>

@@ -41,10 +41,10 @@ function Header () {
 
       <header
         id='header'
-        className='d-flex justify-content-between align-items-center fixed-top shadow'
+        className='d-flex justify-content-between align-items-center fixed-top'
       >
         <Link to='/'>
-          <img src={logo} alt='' />
+          <img src={logo} width={'120px'} alt='' />
         </Link>
         <div id='nav' className='d-flex gap-5 align-items-center'>
           <nav className='d-flex gap-5'>

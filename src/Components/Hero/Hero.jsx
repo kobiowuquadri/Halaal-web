@@ -13,7 +13,7 @@ function Hero () {
       <div className='hero_content d-flex flex-column'>
         <h1 data-aos="fade-right">
           The <span style={{ color: '#0066F4' }}>Interest-free</span> <br />{' '}
-          Bank
+          Bank.
         </h1>
         <p className='fw-bold'>
       <TypeAnimation
@@ -22,8 +22,8 @@ function Hero () {
           1000,
           '😎😎😎...', // Clear the content
           500, // Delay before re-showing the content
-          'banking the ethical way...', // Re-show the content
-          1000, // Duration to keep the content shown
+          'banking the ethical way...', 
+          1000,
           () => {
             console.log('Sequence completed');
           }
@@ -31,16 +31,16 @@ function Hero () {
         wrapper='span'
         cursor={true}
         repeat={Infinity}
-        style={{ textAlign: 'center' }}
+        style={{ textAlign: 'center', color: '#003780', textDecoration:'italics' }}
       />
       <em></em>
     </p>
         <div className='btns d-flex'>
-          <p className='animate__animated animate__heartBeat-slow animate__delay-2s animate__infinite'>
-            <img src={appleImage} alt='' />
-          </p>
-          <p className='animate__animated animate__heartBeat-slow animate__delay-2s animate__infinite'>
+          <p>
             <img src={googleImage} alt='' />
+          </p>
+          <p>
+            <img src={appleImage} alt='' />
           </p>
         </div>
         <div id='license' className='d-flex'>

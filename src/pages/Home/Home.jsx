@@ -11,7 +11,7 @@ import Faq from '../../Components/FAQ/FAQ'
 
 function Home() {
   return (
-    <div className='container-fluid'>
+    <div>
       <Header/>
       <Hero/>
       <Partners/>

@@ -4,7 +4,12 @@
  display: flex;
  padding: 50px;
  width: 100%;
- margin-top: 110px;
+ margin-top: 70px;
+ max-width: 100%;
+ position: relative;
+ left: 0;
+ right: 0;
+ background-color: $thriftsBg;
 
 
 
@@ -19,7 +24,7 @@
 
         .btns {
             padding-top: 50px;
-            gap: 40px;
+            gap: 15px;
         }
       }
 
@@ -30,7 +35,7 @@
 }
 
 #license {
- gap: 40px;
+ gap: 30px;
 }
 
 

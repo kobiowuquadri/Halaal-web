@@ -1,8 +1,10 @@
+@import '../../_variables';
+
 header {
   padding: 30px 40px 30px 40px;
   z-index: 9999;
   height: 70px;
-  background: #eee;
+  background: $thriftsBg;
 }
 
 #menuBar {
@@ -79,5 +81,16 @@ header {
 
     #header {
       padding: 15px;
+    }
+  }
+
+  @media ((min-width:768px) and (max-width: 1078px)){
+    #nav a{
+        font-size: .9rem;
+        // display: none;
+    }
+
+    #buttons button{
+      // display: none;
     }
   }
