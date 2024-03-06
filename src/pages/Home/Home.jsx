@@ -11,7 +11,7 @@ import Faq from '../../Components/FAQ/FAQ'
 
 function Home() {
   return (
-    <>
+    <div className='container-fluid'>
       <Header/>
       <Hero/>
       <Partners/>
@@ -21,7 +21,7 @@ function Home() {
       <Thrifts/>
       <Earn/>
       <Faq/>
-    </>
+    </div>
   )
 }
 
