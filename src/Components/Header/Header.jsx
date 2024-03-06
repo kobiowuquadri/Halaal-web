@@ -53,7 +53,7 @@ function Header () {
             <a href='#'>FAQ</a>
             <a href='#'>Join As Cooperative</a>
           </nav>
-          <div id='buttons' className='d-flex gap-lg-5'>
+          <div id='buttons' className='d-flex gap-lg-5 gap-sm-3'>
             <button className='btn btn-primary'>Sign Up For Free</button>
             <button className='btn btn-outline-secondary border-primary text-primary'>
               Download App
